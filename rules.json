@@ -1,0 +1,13 @@
+{
+    "mappings": [
+        {
+            "patterns": [
+                "example.com",
+                "foo.bar.com"
+            ],
+            "address": "10.0.0.2:443",
+            "sni": "_sni.com",
+            "host_header": "myheader.example.com"
+        }
+    ]
+}
