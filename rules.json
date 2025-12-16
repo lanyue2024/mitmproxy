@@ -5,9 +5,16 @@
                 "example.com",
                 "foo.bar.com"
             ],
-            "address": "10.0.0.2:443",
-            "sni": "_sni.com",
-            "host_header": "myheader.example.com"
+            "address": "23.215.0.138:443",
+            "sni": "example.com"
+        },
+        {
+            "patterns": [
+                "blog.cloudflare.com"
+            ],
+            "address": "104.18.34.24:443",
+            "ech_host": "cloudflare-ech.com",
+            "ech_configlist": "AEX+DQBBaAAgACA/01wXe5RzD7ljcvj1gt4BpesDafE1nAGxlZjAmdNuGwAEAAEAAQASY2xvdWRmbGFyZS1lY2guY29tAAA="
         }
     ]
 }

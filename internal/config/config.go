@@ -10,10 +10,12 @@ type Config struct {
 }
 
 type Mapping struct {
-	Patterns   []string `json:"patterns"`
-	Address    string   `json:"address"`
-	SNI        string   `json:"sni"`
-	HostHeader string   `json:"host_header"`
+	Patterns              []string `json:"patterns"`
+	Address               string   `json:"address"`
+	SNI                   string   `json:"sni"`
+	EchHost               string   `json:"ech_host"`
+	EchConfigList         string   `json:"ech_configlist"`
+	EchConfigListDisabled bool     `json:"-"`
 }
 
 func LoadConfig(path string) (*Config, error) {
